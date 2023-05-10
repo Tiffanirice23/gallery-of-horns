@@ -1,12 +1,33 @@
 import React from 'react';
+import Button from 'react-bootstrap/Button';
+import './HornedBeast.css'
 
 class HornedBeast extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      likes: 0
+    }
+  }
+
+handleLikes = () => {
+  this.setState({
+    likes: this.state.likes + 1
+  });
+}
   render() {
     return (
-      <article>
-        <h2> {this.props.Title}</h2>
-        <p> {this.props.P}</p>
-        <img src={this.props.imgSrc} Title='this.props.Title' alt={this.alt}></img>
+      <article className = "horned-beast">
+        <h2> {this.props.title}</h2>
+        <Button onClick={this.handleLikes}> Vote for this One!?</Button>
+        <p> {this.props.description}</p>
+        <p> ♥️ Total Likes: {this.state.likes} </p>
+        <img 
+        src={this.props.imageURL} 
+        alt={this.alt}
+        title={this.props.title} 
+        />
+        {/* <Button> Vote for this one! </Button> */}
       </article> 
     );
   }
