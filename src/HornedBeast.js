@@ -19,9 +19,9 @@ handleLikes = () => {
     return (
       <article className = "horned-beast">
         <h2> {this.props.title}</h2>
-        <Button onClick={this.handleLikes}> Vote for this One!?</Button>
+        <Button onClick={this.handleLikes}> How many hearts does it have?</Button>
         <p> {this.props.description}</p>
-        <p> ♥️ Total Likes: {this.state.likes} </p>
+        <p> {this.state.likes} ♥️s:</p>
         <img 
         src={this.props.imageURL} 
         alt={this.alt}
