@@ -5,9 +5,7 @@ import './HornedBeast.css'
 
 
 class SelectBeast extends React.Component {
-  constructor(props) {
-    super(props);
-  }
+ 
 render() {
   return (
     <>
