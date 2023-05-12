@@ -1,14 +1,14 @@
 ## Time Estimate
 
-Number and name of feature: ________________________________
+Number and name of feature: _Tiffani Rice - Passing Functions in Props___
 
 Estimate of time needed to complete: __3 hours___
 
 Start time: _12:30 pm____
 
-Finish time: _2:30 pm__
+Finish time: _5:30 pm__
 
-Actual time needed to complete: _____
+Actual time needed to complete: __5 hrs___
 
 # Getting Started with Create React App
 

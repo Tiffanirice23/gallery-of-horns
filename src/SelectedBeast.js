@@ -15,6 +15,7 @@ render() {
         </Modal.Header>
         <Modal.Body>
         {this.props.hornedBeast.description} 
+        {this.props.hornedBeast.horns}
         <img
         src={this.props.hornedBeast.imageURL} 
         alt={this.props.hornedBeast.alt}

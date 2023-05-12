@@ -22,8 +22,9 @@ getHornedBeast = () => {
   return {
     title: this.props.title,
     imageURL: this.props.imageURL,
-    alt: this.alt,
-    description: this.props.description
+    alt: this.props.alt,
+    description: this.props.description,
+    horns: this.props.horns
   }
 }
 
@@ -33,8 +34,9 @@ getHornedBeast = () => {
       <article className = "horned-beast" onClick={() => this.props.handleShowModal(this.getHornedBeast())}>
         <h2> {this.props.title}</h2>
         <p> {this.props.description}</p>
-        <Button onClick={this.handleLikes}> How many hearts does it have?</Button>
+        <p> This thing has {this.props.horns} horn(s)!</p>
         <p> {this.state.likes} ♥️s:</p>
+        <Button onClick={this.handleLikes}> How Much Do You Like It?</Button>
         <img 
         src={this.props.imageURL} 
         alt={this.alt}
