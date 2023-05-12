@@ -1,14 +1,14 @@
 ## Time Estimate
 
-Number and name of feature: _Tiffani Rice - Passing Functions in Props___
+Number and name of feature: _Filter by Numbers of Horns___
 
 Estimate of time needed to complete: __3 hours___
 
-Start time: _12:30 pm____
+Start time: _1:30 pm____
 
-Finish time: _5:30 pm__
+Finish time: _8:00 pm__
 
-Actual time needed to complete: __5 hrs___
+Actual time needed to complete: __6.5 hrs___
 
 # Getting Started with Create React App
 
