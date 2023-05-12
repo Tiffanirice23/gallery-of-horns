@@ -1,11 +1,17 @@
 .horned-beast {
-  border : 5px solid black;
-  width: 35%;
+  border : 2px solid darkseagreen;
+  width: 50%;
   padding: 10px;
   margin: 10px;
+  background-color: green;
+  margin-left: 400px;
 }
 
 .horned-beast img{
   width: 100%;
   height: 350px;
+}
+
+button {
+  margin: 10px;
 }

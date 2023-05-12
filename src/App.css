@@ -38,5 +38,20 @@
 }
 
 body {
-  background-color:#61dafb;
+  background-color:#194343;
+  text-align: center;
+}
+
+form {
+  background-color: rgb(193, 196, 196);
+  padding: 10px;
+}
+/* 
+button {
+  margin-left: 5px;
+} */
+
+select {
+  margin-left: 30px;
+  margin-right: 30px;
 }
